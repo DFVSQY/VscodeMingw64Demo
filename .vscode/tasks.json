@@ -10,17 +10,19 @@
             "args": [
                 "-Wall",
                 "-g",
-                "-I ${workspaceFolder}\\headers",
-                "${workspaceFolder}\\src\\main.cpp",
-                "${workspaceFolder}\\src\\file1.cpp",
-                "${workspaceFolder}\\src\\file2.cpp",
+                "-I",
+                "headers",
+                "src\\main.cpp",
+                "src\\file1.cpp",
+                "src\\file2.cpp",
                 "-o",
-                "${workspaceFolder}\\bin\\main.exe"
+                "bin\\main.exe"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": "$gcc"
         },
         {
             "label": "运行",
