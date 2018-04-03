@@ -49,25 +49,22 @@
                 "${workspaceFolder}/headers",
                 "F:/msys64/mingw64/include/c++/7.3.0",
                 "F:/msys64/mingw64/include/c++/7.3.0/x86_64-w64-mingw32",
+                "F:/msys64/mingw64/include/c++/7.3.0/backward",
                 "F:/msys64/mingw64/include",
-                "F:/msys64/mingw64/x86_64-w64-mingw32/include",
-                "F:/msys64/usr/include"
+                "F:/msys64/mingw64/x86_64-w64-mingw32/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE",
-                "__cdecl=__attribute__((__cdecl__))",
-                "_stdcall __attribute__((__stdcall__))",
-                "__declspec(x) __attribute__((x))"
+                "__GNUC__=7",
+                "__cdecl=__attribute__((__cdecl__))"
             ],
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
                     "${workspaceFolder}",
                     "F:/msys64/mingw64/include",
-                    "F:/msys64/mingw64/x86_64-w64-mingw32/include",
-                    "F:/msys64/usr/include"
+                    "F:/msys64/mingw64/x86_64-w64-mingw32/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""

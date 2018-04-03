@@ -12,5 +12,14 @@ int main()
     testFile1();
     testFile2();
 
+    char *p = (char *)malloc(100);
+    if (p == nullptr)
+    {
+        cout << "malloc failed" << endl;
+        exit(1);
+    }
+    cout << "malloc success" << endl;
+    free(p);
+
     return 0;
 }
