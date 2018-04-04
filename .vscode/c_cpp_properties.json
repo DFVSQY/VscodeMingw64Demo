@@ -53,12 +53,8 @@
                 "F:/msys64/mingw64/include",
                 "F:/msys64/mingw64/x86_64-w64-mingw32/include"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "__GNUC__=7",
-                "__cdecl=__attribute__((__cdecl__))"
-            ],
+            "defines": [],
+            "compilerPath": "F:/msys64/mingw64/bin/g++.exe",
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
