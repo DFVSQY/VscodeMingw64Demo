@@ -6,13 +6,13 @@ This is a demo that shows how to use the vscode to develop C/C++ with gcc compil
 ## 简单的说明一下：
 使用vscode搭建C/C++开发环境进行一些小型demo的测试还是很方便的，前段时间给出了一个[vscode+msvc的环境搭建Demo](https://github.com/DFVSQY/VscodeMsvcDemo)。本次将vscode+mingw64的搭建Demo也分享一份，若有需要的网友可自行参考学习。关于mingw64的下载和安装官网有说明，本Demo使用的mingw64是使用[msys2](http://www.msys2.org/)安装的，msys2提供了在windows上的类linux开发环境，而且还集成了pacman包管理，使用非常方便。由于众所周知的原因国内下载及使用msys2可能会网络不畅，推荐使用[中科大镜像网站](https://mirrors.ustc.edu.cn/)更新挺及时的。下载（"x86_64" for 64-bit, "i686" for 32-bit Windows）完毕后根据[中科大msys2帮助说明](https://lug.ustc.edu.cn/wiki/mirrors/help/msys2)修改相关文件即可。修改完毕后根据msys2的官方说明先进行更新，更新完毕之后再进行安装mingw64。
 
-### 1. 查询mingw64相关软件包
+### 1. 查询gcc相关软件包
 
 运行msys2.exe,使用pacman搜索功能先查找mingw64相关的软件包,输入下面的命令：
 ~~~
 pacman -Ss mingw-w64 gcc
 ~~~
-### 2. 安装mingw64
+### 2. 安装gcc
 32位输入下面的命令：
 ~~~
 pacman -S mingw-w64-i686-gcc
