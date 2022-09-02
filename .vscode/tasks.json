@@ -6,7 +6,7 @@
         {
             "label": "构建",
             "type": "shell",
-            "command": "g++",
+            "command": "g++",                           // 确保g++放在环境变量中
             "args": [
                 "-Wall",
                 "-g",
